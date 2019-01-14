@@ -1,7 +1,7 @@
 # Setup
 
-* Install (python3)[https://www.python.org/downloads/]
-* Install (virtualenvwrapper)[https://virtualenvwrapper.readthedocs.io/en/latest/install.html] (skip this step if you want to create a virtualenv via e.g. PyCharm)
+* Install [python3](https://www.python.org/downloads/)
+* Install [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/install.html) (skip this step if you want to create a virtualenv via e.g. PyCharm)
   - linux, mac: `pip install virtualenvwrapper`
   - windows: `pip install virtualenvwrapper-win`
   - windows PowerShell: `pip install virtualenvwrapper-powershell`
@@ -33,8 +33,8 @@ Run pytest:
 # What else to keep in mind
 
 * Most code is written once, but read multiple times, so make sure yours is readable:
-  - conform with (PEP8)[https://www.python.org/dev/peps/pep-0008/] (try `pylama` for hints)
+  - conform with [PEP8](https://www.python.org/dev/peps/pep-0008/) (try `pylama` for hints)
   - add docstrings to your functions
-* (DRY)[https://en.wikipedia.org/wiki/Don%27t_repeat_yourself] and (KISS)[https://en.wikipedia.org/wiki/KISS_principle]
+* [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) and [KISS](https://en.wikipedia.org/wiki/KISS_principle)
 * Use standard functions if possible - they're usually better
 * The debugger is your friend: `import  pdb; pdb.set_trace()` is something worth using from time to time
