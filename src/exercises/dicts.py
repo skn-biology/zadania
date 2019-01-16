@@ -1,7 +1,7 @@
 """Dictionary exercises.
 
-Fill out the function definition, then 
-run `pylama src/dicts.py` to run code checs 
+Fill out the function definition, then
+run `pylama src/exercises/dicts.py` to run code checks
 and `pytest tests/test_dicts.py` to check your solutions.
 """
 
