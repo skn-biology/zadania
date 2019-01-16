@@ -1,6 +1,8 @@
 """Dictionary exercises.
 
-Fill out the function definition and run `pylama tests/test_dicts.py`.
+Fill out the function definition, then
+run `pylama src/exercises/dicts.py` to run code checks
+and `pytest tests/test_dicts.py` to check your solutions.
 """
 
 
@@ -21,7 +23,6 @@ def reverse_dict(dic):
 
          reverse_dict({"a": 1, "b": 2, "c": 3}) == {1: a", 2: "b", 3: "c"}
     """
-    return {v: k for k, v in dic.items()}
 
 
 def remove_keys(dic, keys):
