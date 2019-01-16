@@ -1,6 +1,8 @@
 """List exercises.
 
-Fill out the functions with your implementation, then run `pylama tests/test_lists.py`.
+Fill out the functions with your implementation, then 
+run `pylama src/lists.py` to run code checs 
+and `pytest tests/test_lists.py` to check your solutions.
 """
 
 
